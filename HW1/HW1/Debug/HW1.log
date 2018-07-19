@@ -1,0 +1,35 @@
+﻿  processString.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2316): warning C4244: '引數': 將 'int' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2335): note: 請參閱所要編譯的函式 樣板 具現化 '_OutIt std::_Copy_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)' 之參考
+          with
+          [
+              _OutIt=std::ostream_iterator<float,char,std::char_traits<char>>,
+              _InIt=int *
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2344): note: 請參閱所要編譯的函式 樣板 具現化 '_OutIt std::_Copy_unchecked<_InIt,_Iter>(_InIt,_InIt,_OutIt)' 之參考
+          with
+          [
+              _OutIt=std::ostream_iterator<float,char,std::char_traits<char>>,
+              _InIt=int *,
+              _Iter=std::ostream_iterator<float,char,std::char_traits<char>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2364): note: 請參閱所要編譯的函式 樣板 具現化 '_OutIt std::_Copy_no_deprecate1<int*,_OutIt>(_InIt,_InIt,_OutIt,std::input_iterator_tag,std::_Any_tag)' 之參考
+          with
+          [
+              _OutIt=std::ostream_iterator<float,char,std::char_traits<char>>,
+              _InIt=int *
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2373): note: 請參閱所要編譯的函式 樣板 具現化 '_OutIt std::_Copy_no_deprecate<_InIt,_OutIt>(_InIt,_InIt,_OutIt)' 之參考
+          with
+          [
+              _OutIt=std::ostream_iterator<float,char,std::char_traits<char>>,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]
+  c:\users\administrator\downloads\windows-programming-yjcchen-master\hw1\hw1\processstring.cpp(39): note: 請參閱所要編譯的函式 樣板 具現化 '_OutIt std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,std::ostream_iterator<float,char,std::char_traits<char>>>(_InIt,_InIt,_OutIt)' 之參考
+          with
+          [
+              _OutIt=std::ostream_iterator<float,char,std::char_traits<char>>,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]
+  HW1.vcxproj -> C:\Users\Administrator\Downloads\windows-programming-yjcchen-master\HW1\Debug\HW1.exe
+  HW1.vcxproj -> C:\Users\Administrator\Downloads\windows-programming-yjcchen-master\HW1\Debug\HW1.pdb (Partial PDB)

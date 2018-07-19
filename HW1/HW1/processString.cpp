@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 #include <string>
 #include <vector>
-
 #include <gtest\gtest.h>
 
 using namespace std;
@@ -16,11 +15,37 @@ using namespace std;
 //       -1 if exception occur (ex. string containing non-digit character)
 int getAscendingStr(string& inputStr)
 {
-	
-	/// Please fill your code here
+	for (char c : inputStr) {
+		if (!isdigit(c) && c != ' ')
+			if (c != '-')
+				return -1;
+	}
+	//字串一一讀取，若有非數字直接回傳-1
 
 
-	return 0;
+	if (inputStr == "") {
+		cout << "空字串";
+		return 0;
+	}
+	else {
+		int inputStr_index;
+		stringstream ss(inputStr);
+		vector<int> v;
+		while (ss >> inputStr_index) {
+			v.push_back(inputStr_index);
+		}
+		sort(v.begin(), v.end());
+		stringstream result;
+		std::copy(v.begin(), v.end(), std::ostream_iterator<float>(result, " "));
+		result.str().erase(result.str().find_last_not_of(" ") + 1);
+		std::cout << result.str().erase(result.str().find_last_not_of(" ") + 1) << endl;
+		inputStr = result.str().erase(result.str().find_last_not_of(" ") + 1);
+
+		//inputStr
+		
+		cout << inputStr << endl;
+		return 0;
+	}
 }
 
 // solveQ Function requirement
@@ -36,8 +61,23 @@ int getAscendingStr(string& inputStr)
 //          (return vector size should be 0)
 int solveQ(vector<double> &x, double a, double b, double c)
 {
-
-	return 0;
+	double d = (b * b) - (4 * a * c);
+	if (d > 0) {
+		x.push_back((-b + sqrt(b*b - 4 * a * c)) / (2 * a));
+		x.push_back((-b - sqrt(b*b - 4 * a * c)) / (2 * a));
+		cout << x[0] << endl;
+		cout << x[1] << endl;
+		return 1;
+	}
+	if (d == 0) {
+		x.push_back((-b) / 2 * a);
+		cout << x[0] << endl;
+		return 0;
+	}
+	if (d < 0) {
+		cout << "-1" << endl;
+		return -1;
+	}
 }
 
 int main(int argc, char*argv[]) {
