@@ -1,4 +1,5 @@
 ﻿  processString.cpp
+<<<<<<< HEAD
 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2316): warning C4244: '引數': 將 'int' 轉換為 'const float'，由於類型不同，可能導致資料遺失
   c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2335): note: 請參閱所要編譯的函式 樣板 具現化 '_OutIt std::_Copy_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)' 之參考
           with
@@ -33,3 +34,55 @@ c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2316): w
           ]
   HW1.vcxproj -> C:\Users\Administrator\Downloads\windows-programming-yjcchen-master\HW1\Debug\HW1.exe
   HW1.vcxproj -> C:\Users\Administrator\Downloads\windows-programming-yjcchen-master\HW1\Debug\HW1.pdb (Partial PDB)
+=======
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\internal\gtest-port.h(1031): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\internal\gtest-port.h(1032): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\internal\gtest-port.h(1033): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\internal\gtest-port.h(1034): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\internal\gtest-port.h(1035): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(613): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(618): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(623): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(628): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(633): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(638): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(645): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(652): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(659): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(666): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(674): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(891): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+  c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(891): note: 查看要編譯的 類別 樣板 具現化 'testing::internal::TuplePolicy<TupleT>::tuple_element<I>' 參考
+  c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(899): note: 查看要編譯的 類別 樣板 具現化 'testing::internal::TuplePolicy<TupleT>' 參考
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(895): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(888): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\tuple(1163): note: 請參閱 'std::tr1' 的宣告
+  c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(974): note: 查看要編譯的 類別 樣板 具現化 'testing::internal::TuplePolicy<Tuple>' 參考
+          with
+          [
+              Tuple=std::tuple<>
+          ]
+  c:\users\one stat\desktop\windows-programming-ykhsiao25\googletest-master\googletest\include\gtest\gtest-printers.h(614): note: 請參閱所要編譯的函式 樣板 具現化 'void testing::internal::PrintTupleTo<std::tuple<>>(const T &,std::ostream *)' 之參考
+          with
+          [
+              T=std::tuple<>
+          ]
+>>>>>>> finish HW2

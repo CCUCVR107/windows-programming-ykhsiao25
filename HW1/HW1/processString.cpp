@@ -1,6 +1,10 @@
-﻿#include <iostream>
-#include <string>
+﻿#include <string>
+#include <sstream>
 #include <vector>
+<<<<<<< HEAD
+=======
+#include <algorithm>
+>>>>>>> finish HW2
 #include <gtest\gtest.h>
 
 using namespace std;
@@ -14,7 +18,11 @@ using namespace std;
 // return 0 if success, (empty string)
 //       -1 if exception occur (ex. string containing non-digit character)
 int getAscendingStr(string& inputStr)
+<<<<<<< HEAD
 {
+=======
+{	
+>>>>>>> finish HW2
 	for (char c : inputStr) {
 		if (!isdigit(c) && c != ' ')
 			if (c != '-')
@@ -35,6 +43,7 @@ int getAscendingStr(string& inputStr)
 			v.push_back(inputStr_index);
 		}
 		sort(v.begin(), v.end());
+<<<<<<< HEAD
 		stringstream result;
 		std::copy(v.begin(), v.end(), std::ostream_iterator<float>(result, " "));
 		result.str().erase(result.str().find_last_not_of(" ") + 1);
@@ -44,6 +53,11 @@ int getAscendingStr(string& inputStr)
 		//inputStr
 		
 		cout << inputStr << endl;
+=======
+		for (auto inputStr : v) {
+			cout << inputStr << endl;
+		}
+>>>>>>> finish HW2
 		return 0;
 	}
 }
@@ -61,6 +75,7 @@ int getAscendingStr(string& inputStr)
 //          (return vector size should be 0)
 int solveQ(vector<double> &x, double a, double b, double c)
 {
+<<<<<<< HEAD
 	double d = (b * b) - (4 * a * c);
 	if (d > 0) {
 		x.push_back((-b + sqrt(b*b - 4 * a * c)) / (2 * a));
@@ -78,6 +93,25 @@ int solveQ(vector<double> &x, double a, double b, double c)
 		cout << "-1" << endl;
 		return -1;
 	}
+=======
+		double d = (b * b) - (4 * a * c);
+		if (d > 0){
+			x[0] = (-b + sqrt(4 * a * c)) / (2 * a);
+			x[1] = (-b - sqrt(4 * a * c)) / (2 * a);
+			cout << x[0] << endl;
+			cout << x[1] << endl;
+			return 1;
+		}
+		if (d == 0) {
+			x[0] = (-b) / 2 * a;
+			cout << x[0] << endl;
+			return 0;
+		}
+		if (d < 0) {
+			cout << "-1" << endl;
+			return - 1;
+		}
+>>>>>>> finish HW2
 }
 
 int main(int argc, char*argv[]) {
@@ -87,6 +121,7 @@ int main(int argc, char*argv[]) {
 	system("pause");
 	return 0;
 }
+
 
 TEST(getAscendingStr, SimpleAscending)
 {//Simple ascending test case
